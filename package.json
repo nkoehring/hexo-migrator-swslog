@@ -1,0 +1,43 @@
+{
+  "name": "hexo-migrator-swslog",
+  "version": "0.0.1",
+  "description": "SWSLog migrator plugin for Hexo",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nkoehring/hexo-migrator-swslog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nkoehring/hexo-migrator-swslog/issues"
+  },
+  "keywords": [
+    "hexo",
+    "migrator",
+    "swslog"
+  ],
+  "author": {
+    "name": "Norman Köhring",
+    "email": "koehr+hexo@mailbox.org",
+    "url": "http://koehr.in"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://raw.github.com/nkoehring/hexo-migrator-swslog/master/LICENSE"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "to-markdown": "0.0.1",
+    "request": "^2.36.0",
+    "textile-js": "0.1.8"
+  },
+  "homepage": "https://github.com/nkoehring/hexo-migrator-swslog",
+  "_id": "hexo-migrator-swslog@0.0.1",
+  "_from": "hexo-migrator-swslog@*",
+  "maintainers": [
+    {
+      "name": "koehr",
+      "email": "koehr+hexo@mailbox.org"
+    }
+  ],
+  "directories": {}
+}

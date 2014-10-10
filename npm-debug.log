@@ -1,0 +1,84 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.13.0-pre
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/nk/sources/private/hexo-migrator-swslog',
+5 verbose install   [ 'to-markdown', 'request', 'textile-js' ] ]
+6 info preinstall hexo-migrator-swslog@0.0.1
+7 warn package.json to-markdown@0.0.1 No repository field.
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping request@^2.36.0 /home/nk/sources/private/hexo-migrator-swslog
+10 verbose cache add [ 'textile-js@0.0.8', null ]
+11 verbose cache add name=undefined spec="textile-js@0.0.8" args=["textile-js@0.0.8",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'textile-js@0.0.8',
+12 verbose parsed url   path: 'textile-js@0.0.8',
+12 verbose parsed url   href: 'textile-js@0.0.8' }
+13 verbose already installed skipping to-markdown@0.0.1 /home/nk/sources/private/hexo-migrator-swslog
+14 verbose cache add name="textile-js" spec="0.0.8" args=["textile-js","0.0.8"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '0.0.8',
+15 verbose parsed url   path: '0.0.8',
+15 verbose parsed url   href: '0.0.8' }
+16 verbose addNamed [ 'textile-js', '0.0.8' ]
+17 verbose addNamed [ '0.0.8', '0.0.8' ]
+18 silly lockFile 66c34a71-textile-js-0-0-8 textile-js@0.0.8
+19 verbose lock textile-js@0.0.8 /home/nk/.npm/66c34a71-textile-js-0-0-8.lock
+20 verbose request where is /textile-js
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 3efc0c19851bd009
+23 verbose url raw /textile-js
+24 verbose url resolving [ 'https://registry.npmjs.org/', './textile-js' ]
+25 verbose url resolved https://registry.npmjs.org/textile-js
+26 verbose request where is https://registry.npmjs.org/textile-js
+27 info trying registry request attempt 1 at 23:53:05
+28 http GET https://registry.npmjs.org/textile-js
+29 http 200 https://registry.npmjs.org/textile-js
+30 silly registry.get cb [ 200,
+30 silly registry.get   { date: 'Wed, 08 Oct 2014 21:53:06 GMT',
+30 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     etag: '"CE748KCQG1Q7JYFROINRVA1K2"',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=60',
+30 silly registry.get     'content-length': '9906',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     'x-served-by': 'cache-fra1228-FRA',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1412805185.967352,VS0,VE708',
+30 silly registry.get     vary: 'Accept',
+30 silly registry.get     connection: 'close' } ]
+31 silly lockFile 66c34a71-textile-js-0-0-8 textile-js@0.0.8
+32 silly lockFile 66c34a71-textile-js-0-0-8 textile-js@0.0.8
+33 error Error: version not found: textile-js@0.0.8
+33 error     at /usr/lib/node_modules/npm/lib/cache/add-named.js:125:12
+33 error     at saved (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+33 error     at Object.oncomplete (fs.js:93:15)
+34 error If you need help, you may report this *entire* log,
+34 error including the npm and node versions, at:
+34 error     <http://github.com/npm/npm/issues>
+35 error System Linux 3.16.2-1-ARCH
+36 error command "/usr/bin/node" "/usr/bin/npm" "install"
+37 error cwd /home/nk/sources/private/hexo-migrator-swslog
+38 error node -v v0.13.0-pre
+39 error npm -v 1.4.28
+40 verbose exit [ 1, true ]
